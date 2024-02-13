@@ -659,16 +659,3 @@ MainTab:AddToggle({
         CheckQuest()
 	end    
 })
-
-
-
-
-
-
-
-
-
-
-
-end
-OrionLib:Init()
