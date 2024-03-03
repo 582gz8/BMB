@@ -3242,7 +3242,7 @@ end)
 
 M:AddToggle({
 	Name = "Đánh nhanh",
-	Default = true,
+	Default = nil,
 	Callback = function(Value)
 		_G.FastAttack = Value
 	end    
