@@ -19,10 +19,8 @@ function CheckQuest()
             
         elseif MyLevel == 10 or MyLevel <= 210 or SelectMonster == "Shanda" then
             Mon = "Shanda"
-            NameQuest = "SkyExp1Quest"
             LevelQuest = 2
             NameMon = "Shandas"
-            CFrameQuest = CFrame.new(-7859.09814, 5544.19043, -381.476196, -0.422592998, 0, 0.906319618, 0, 1, 0, -0.906319618, 0, -0.422592998)
             CFrameMon = CFrame.new(-7904.57373, 5584.37646, -459.62973, 0.65171206, 5.11171692e-08, 0.758466363, -4.76232476e-09, 1, -6.33034247e-08, -0.758466363, 3.76435416e-08, 0.65171206)
 
         elseif MyLevel == 210 or MyLevel <= 249 or SelectMonster == "Dangerous Prisoner [MyLevel. 210]" then
