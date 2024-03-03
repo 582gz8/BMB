@@ -2243,14 +2243,7 @@ local Window = OrionLib:MakeWindow({Name = "BMB HUB [first ver)", HidePremium = 
 
 OrionLib:MakeNotification({
 	Name = "GAY BYFRON",
-	Content = "Đợi xíu",
-	Image = "rbxassetid://4483345998",
-	Time = 5
-})
-
-OrionLib:MakeNotification({
-	Name = "GAY BYFRON",
-	Content = "Nếu script chưa load hết tab (chỉ có phần main) thì execute lại😭",
+	Content = "Đợi xíu, Nếu script chỉ hiện mỗi tab main thì ấn execute lại",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
