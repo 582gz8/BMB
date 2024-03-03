@@ -4893,8 +4893,6 @@ IQ:AddToggle({
 	Default = false,
 	Callback = function(Value)
 		_G.Hop = Value
-        wait()
-        _G.AutoBudySword
 	end    
 })
 
@@ -5867,7 +5865,6 @@ local CavandisPos = CFrame.new(5311.07421875, 426.0243835449219, 165.12762451171
             Name = "ArenaTrainer"
         })
 
-        IQ:AddLabel("Cho thằng nào đell hiểu thì đây là tự động đánh hình nộm")
 
         IQ:AddToggle({
             Name = "Automatically hit the dummy",
