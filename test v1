@@ -3532,18 +3532,8 @@ local x2Code = {
     "SUB2FER999",
     "MAGICBIS",
     "TY_FOR_WATCHING",
-    "STARCODEHEO",
-    "NEWTROLL",
-    "SECRET_ADMIN",
-    "KITT_RESET",
-    "JULYUPDATE_RESET",
-    "staffbattle",
-    "Sub2CaptainMaui",
-    "SUB2GAMERROBOT_RESET1",
-    "Sub2UncleKizaru",
-    "TantaiGaming"
+    "STARCODEHEO"
 }
-
 
 
 M:AddButton({
@@ -7934,6 +7924,12 @@ for i,v in pairs(x2Code) do
     RedeemCode(v)
 end
 
+OrionLib:MakeNotification({
+        Name = "BMB bot",
+        Content = "Loading script complete",
+        Image = "rbxassetid://4483345998",
+        Time = 5
+    })
 
 _G.Remove_Effect = true
 
