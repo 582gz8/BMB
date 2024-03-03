@@ -2248,6 +2248,13 @@ OrionLib:MakeNotification({
 	Time = 5
 })
 
+OrionLib:MakeNotification({
+	Name = "GAY BYFRON",
+	Content = "Nếu script chưa load hết tab (chỉ có phần main) thì execute lại😭",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 local W = Window:MakeTab({
 	Name = "Welcome",
 	Icon = "rbxassetid://4483345998",
