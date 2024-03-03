@@ -6,14 +6,6 @@ elseif game.PlaceId == 7449423635 then
     World3 = true
 end
 
-OrionLib:MakeNotification({
-    Name = "BMB bot",
-    Content = "Nếu script không load hết tab thì xoá script đi r execute lại",
-    Image = "rbxassetid://4483345998",
-    Time = 1
-})
-
-
 function CheckQuest() 
     MyLevel = game:GetService("Players").LocalPlayer.Data.Level.Value
     if World1 then
