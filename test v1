@@ -7934,12 +7934,6 @@ for i,v in pairs(x2Code) do
     RedeemCode(v)
 end
 
-OrionLib:MakeNotification({
-        Name = "BMB bot",
-        Content = "Loading script complete",
-        Image = "rbxassetid://4483345998",
-        Time = 5
-    })
 
 _G.Remove_Effect = true
 
