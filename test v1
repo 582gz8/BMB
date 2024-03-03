@@ -5985,7 +5985,7 @@ local CavandisPos = CFrame.new(5311.07421875, 426.0243835449219, 165.12762451171
 
 
         IQ:AddToggle({
-            Name = "Automatically hit the dummy",
+            Name = "Tự động đánh dummy (con bot để tập pvp)",
             Default = false,
             Callback = function(Value)
                 _G.Namfon = Value
@@ -6052,7 +6052,7 @@ local CavandisPos = CFrame.new(5311.07421875, 426.0243835449219, 165.12762451171
         end)
 
         IQ:AddToggle({
-            Name = "Automatically hit the dummy[HOP]",
+            Name = "Đánh dummy[HOP][xàm cak quá]",
             Default = false,
             Callback = function(Value)
                 _G.Hop = Value
@@ -6497,7 +6497,7 @@ local Fruit = S:AddLabel("Fruit : ")
 
 S:AddToggle({
 	Name = "Auto Stats Kaitun",
-	Default = false,
+	Default = true,
 	Callback = function(Value)
 		_G.Auto_Stats_Kaitun = Value
 	end    
