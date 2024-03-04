@@ -1,3 +1,5 @@
+--//Main BF
+
 if game.PlaceId == 2753915549 then
     World1 = true
 elseif game.PlaceId == 4442272183 then
@@ -3258,7 +3260,7 @@ spawn(function()
                 pcall(function()
                     CameraShaker:Stop()
                     y.activeController.timeToNextAttack = (math.huge^math.huge^math.huge)
-                    y.activeController.timeToNextAttack = 0
+                    y.activeController.timeToNextAttack = 0.15
                     y.activeController.hitboxMagnitude = 60
                     y.activeController.active = false
                     y.activeController.timeToNextBlock = 0
