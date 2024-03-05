@@ -2353,12 +2353,14 @@ M.Main:AddParagraph({
     Title = "Farm",
 })
 
-local LevelFarm = M.Main:AddToggle("MyToggle", {Title = "Tự động Farm level", Default = false })
-LevelFarm:OnChanged(function()
-    _G.AutoFarm = Value
-    StopTween(_G.AutoFarm)
-end)
-Options.LevelFarm:SetValue(true)
+M.Main:AddButton({
+    Title = "One click auto farm level",
+    Description = "Very important button",
+    Callback = function()
+		_G.AutoFarm = Value
+        StopTween(_G.AutoFarm)
+    end
+})
 
 spawn(function()
     while wait() do
