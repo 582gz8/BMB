@@ -2308,6 +2308,7 @@ W.Main:AddParagraph({
 --//Main tabs M
 local WeaponList = {"Melee","Sword","Fruit","Gun"}
 _G.SelectWeapon = "Melee"
+
 task.spawn(function()
 	while wait() do
 		pcall(function()
@@ -2351,13 +2352,12 @@ task.spawn(function()
 M.Main:AddParagraph({
     Title = "Farm",
 })
-local LevelFarm = M.Main:AddToggle("MyToggle", {Title = "Tự động Farm level", Default = false })
 
+local LevelFarm = M.Main:AddToggle("MyToggle", {Title = "Tự động Farm level", Default = false })
 LevelFarm:OnChanged(function()
     _G.AutoFarm = Value
     StopTween(_G.AutoFarm)
 end)
-
 Options.LevelFarm:SetValue(true)
 
 spawn(function()
