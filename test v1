@@ -2358,6 +2358,8 @@ LevelFarm:OnChanged(function()
     StopTween(_G.AutoFarm)
 end)
 
+Options.LevelFarm:SetValue(true)
+
 spawn(function()
     while wait() do
         if _G.AutoFarm then
