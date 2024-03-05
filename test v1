@@ -2351,7 +2351,7 @@ task.spawn(function()
 M.Main:AddParagraph({
     Title = "Farm",
 })
-local LevelFarm = Tabs.Main:AddToggle("MyToggle", {Title = "Tự động Farm level", Default = false })
+local LevelFarm = M.Main:AddToggle("MyToggle", {Title = "Tự động Farm level", Default = false })
 
 LevelFarm:OnChanged(function()
     _G.AutoFarm = Value
